@@ -1,0 +1,11 @@
+# Python 3.14-compatible dependencies. Pip resolves a matching torch/torchvision
+# pair for the active platform; never pin these two packages to unrelated releases.
+torch>=2.9.0
+torchvision>=0.24.0
+numpy>=2.2.0
+matplotlib>=3.10.0
+tqdm>=4.67.0
+PyYAML>=6.0.2
+scipy>=1.15.0
+Pillow>=11.1.0
+jupyter>=1.1.1

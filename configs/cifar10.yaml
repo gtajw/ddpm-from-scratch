@@ -1,0 +1,23 @@
+seed: 42
+dataset: cifar10
+data_dir: data
+output_dir: outputs/cifar10
+image_size: 32
+image_channels: 3
+batch_size: 128
+num_workers: 2
+epochs: 30
+learning_rate: 0.0002
+weight_decay: 0.0001
+gradient_clip_norm: 1.0
+ema_decay: 0.9999
+timesteps: 650
+beta_schedule: cosine
+base_channels: 80
+channel_multipliers: [1, 2, 2, 3]
+time_dim: 320
+attention_resolution: 16
+dropout: 0.1
+sample_every: 10
+checkpoint_every: 10
+num_samples: 64
